@@ -32,6 +32,7 @@ DESCRIPTION OF DATASET 'reliability_data.csv'
 
 This dataset includes codings of the variables Action and Social by four individual coders (two for each variable). Variables:
 
+	*Variables and codes used in dataset*
   Coder1_Action     Whether the regret was one of action (1) or inaction (0) according to coder 1
   Coder2_Action     Whether the regret was one of action (1) or inaction (0) according to coder 2
   Coder3_Social     Whether the regret was in a social domain (1) or a non-social domain (0) according to coder 3
