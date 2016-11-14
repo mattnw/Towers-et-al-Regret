@@ -18,24 +18,24 @@ Instead, the analysis script below shows the substantive analyses conducted in t
 
 ## Variables and codes used in dataset ##
 
-* .imp			The imputation number of a particular row. 0 = the original dataset; 1-5 = each of the imputed datasets
-* .id			The participant id number
-* Action			Whether the participant's greatest lifetime regret was an action (1) or an inaction (0)
-* LTRintensity		Regret intensity ("How intense are your feelings of regret?") Rating scale with a possible range of 1-9
-* LTRjustification	Justification level ("At the time it happened, how justified was the event or decision?") Rating scale with a possible range of 1-5
-* LTRrules		Whether the regretted decision breached the participant's life rules. ("Do you feel that the decision you made or event you experienced contradicts any of your personal rules?") 0=No it does not, 1 = Yes it does.
-* LTRyears		The number of years since the participant's greatest lifetime regret (recoded from the original collection in months and weeks). 
-* Social			Whether the participant's greatest lifetime regret was in a social domain (1) or a non-social domain (0)
-* ActionxYear		Interaction term
+* _.imp_			The imputation number of a particular row. 0 = the original dataset; 1-5 = each of the imputed datasets
+* _.id_			The participant id number
+* _Action_			Whether the participant's greatest lifetime regret was an action (1) or an inaction (0)
+* _LTRintensity_		Regret intensity ("How intense are your feelings of regret?") Rating scale with a possible range of 1-9
+* _LTRjustification_	Justification level ("At the time it happened, how justified was the event or decision?") Rating scale with a possible range of 1-5
+* _LTRrules_		Whether the regretted decision breached the participant's life rules. ("Do you feel that the decision you made or event you experienced contradicts any of your personal rules?") 0=No it does not, 1 = Yes it does.
+* _LTRyears_		The number of years since the participant's greatest lifetime regret (recoded from the original collection in months and weeks). 
+* _Social_			Whether the participant's greatest lifetime regret was in a social domain (1) or a non-social domain (0)
+* _ActionxYear_		Interaction term
 
 # DESCRIPTION OF DATASET 'reliability_data.csv' #
 
 This dataset includes codings of the variables Action and Social by four individual coders (two for each variable). Variables:
 
-* Coder1_Action     Whether the regret was one of action (1) or inaction (0) according to coder 1
-* Coder2_Action     Whether the regret was one of action (1) or inaction (0) according to coder 2
-* Coder3_Social     Whether the regret was in a social domain (1) or a non-social domain (0) according to coder 3
-* Coder4_Social     Whether the regret was in a social domain (1) or a non-social domain (0) according to coder 4
+* *Coder1_Action*     Whether the regret was one of action (1) or inaction (0) according to coder 1
+* *Coder2_Action*     Whether the regret was one of action (1) or inaction (0) according to coder 2
+* *Coder3_Social*     Whether the regret was in a social domain (1) or a non-social domain (0) according to coder 3
+* *Coder4_Social*     Whether the regret was in a social domain (1) or a non-social domain (0) according to coder 4
   
 
 # DESCRIPTION OF ANALYSIS SCRIPT 'Regret analysis script.R' #
