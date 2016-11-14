@@ -1,0 +1,8 @@
+The datasets complete_data.csv and reliability_data.csv are made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0.
+
+If you share or report analyses of this data, please ensure that you acknowledge the source of the data via an appropriate citation.
+
+
+
+The analysis script 'Regret analysis script.R' is made available under the GNU General Public License: https://cran.r-project.org/web/licenses/GPL-3
+
